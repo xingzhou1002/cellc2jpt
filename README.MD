@@ -54,9 +54,7 @@ Then use jupyter notebook.
 ```shell
 jupyter-notebook
 ```
-Run the code in jupyter notebook with right kernel.
-
-Then save the ipynd file and shut down the jupyter.
+Run the code in jupyter notebook with right kernel. Then save the ipynd file and shut down the jupyter.
 
 Use this commend in the same shell.
 ```shell
