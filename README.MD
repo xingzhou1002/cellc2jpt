@@ -1,6 +1,6 @@
 # Shell tool to make cellstyled code jupyter .ipynd file
 This shell tool is used to transform styled code to ipynb file. The you can use jupyter-nbconvert to transform it to markdown form.
-## 1.Install
+## 1. Install
 In python environment.
 You should install nuitka first.
 ```shell
@@ -11,9 +11,9 @@ Then use
 sudo install -Dm755 ./cellc2jpt "$pkgdir/usr/bin/cellc2jpt"                
 ```
 
-## 2.Write you code in cellstyle
+## 2. Write you code in cellstyle
 Use '# cell' to devide you code to cells.
-For example.
+For example:
 ```python
 # cell
 # comment
@@ -24,15 +24,15 @@ print("b")
 # other comment
 print("c")
 ```
-This python file will be devided to 2 cells in jupyter ipynd file.One cell print \'a\' and \'b\',another cell will print \'c\' 
+This python file will be devided to 2 cells in jupyter ipynd file. One cell print \'a\' and \'b\',another cell will print \'c\' 
 
-## 3.Use shell to tansform to ipynb
+## 3. Use shell to tansform to ipynb
 Use
 ```shell
 cellc2jpt file_path
 ```
 The ipynd file will create in the same dir with the target file.
-## 4.Tansform to MD file
+## 4. Tansform to MD file
 In jupyter environment.
 ```shell
 jupyter nbconvert test.ipynb --to markdown
