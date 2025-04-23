@@ -13,7 +13,7 @@ sudo install -Dm755 ./cellc2jpt "$pkgdir/usr/bin/cellc2jpt"
 
 ## 2. Write you code in cellstyle
 Use '# cell' to devide you code to cells.
-For example:
+\nFor example:
 ```python
 # cell
 # comment
