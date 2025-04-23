@@ -26,7 +26,7 @@ print("c")
 ```
 This python file will be devided to 2 cells in jupyter ipynd file.One cell print \'a\' and \'b\',another cell will print \'c\' 
 
-## 3.use shell to tansform to ipynb
+## 3.Use shell to tansform to ipynb
 Use
 ```shell
 cellc2jpt file_path
@@ -44,7 +44,7 @@ or
 jupyter-nbconvert test.ipynb --to markdown
 ```
 
-## example
+## Example
 In current path use
 ```shell
 cellc2jpt example/example.py
