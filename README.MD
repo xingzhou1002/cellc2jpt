@@ -32,7 +32,7 @@ Use
 ```shell
 cellc2jpt file_path
 ```
-The ipynd file will create in the same dir with the target file.
+The ipynd file will be created in the same dir with the target file.
 ## 4. Tansform to MD file
 In jupyter environment.
 ```shell
