@@ -55,13 +55,16 @@ Then use jupyter notebook.
 jupyter-notebook
 ```
 Run the code in jupyter notebook with right kernel.
+
 Then save the ipynd file and shut down the jupyter.
+
 Use this commend in the same shell.
 ```shell
 jupyter-nbconvert --to markdown ./example/example.ipynb 
 ```
 To make it to MD file.
-Also you should install jupyter-nbconvert in jupyter environment.
+
+Also you should first install jupyter-nbconvert in jupyter environment.
 ```shell
 pip install nbconvert
 ```
