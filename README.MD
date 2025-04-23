@@ -32,7 +32,7 @@ Use
 cellc2jpt file_path
 ```
 The ipynd file will create in the same dir with the target file.
-## 4.tansform to MD file
+## 4.Tansform to MD file
 In jupyter environment.
 ```shell
 jupyter nbconvert test.ipynb --to markdown
