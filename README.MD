@@ -1,4 +1,4 @@
-# Shell tool to make cellstyled code jupyter .ipynd file
+# Shell tool to make cellstyled code a jupyter .ipynd file
 This shell tool is used to transform styled code to ipynb file. The you can use jupyter-nbconvert to transform it to markdown form.
 ## 1. Install
 In python environment.
